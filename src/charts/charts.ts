@@ -71,7 +71,12 @@ export class BaseChartDirective implements OnDestroy, OnChanges, OnInit {
         } else {
           this.updateChartData(changes['datasets'].currentValue);
         }
-
+        // add label change detection every time
+        if (changes['labels']) { 
+            if (this.chart && this.chart.data && this.chart.data.labels) {
+                this.chart.data.labels = changes['labels'].currentValue;    
+            }
+        }
         this.chart.update();
       } else {
       // otherwise rebuild the chart

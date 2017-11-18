@@ -1,3 +1,30 @@
+<a name="1.6.0"></a>
+# [1.6.0](https://github.com/valor-software/ng2-charts/compare/v1.5.0...v1.6.0) (2017-05-30)
+
+
+### Features
+
+* **core:** Chart.js is now loaded as a module ([#628](https://github.com/valor-software/ng2-charts/issues/628)) ([6ed93e6](https://github.com/valor-software/ng2-charts/commit/6ed93e6))
+* **package:** Allow usage with Angular 4, like was done with ngx-bootstrap ([#748](https://github.com/valor-software/ng2-charts/issues/748)) ([8f59f85](https://github.com/valor-software/ng2-charts/commit/8f59f85))
+
+
+
+<a name="1.5.0"></a>
+# [1.5.0](https://github.com/valor-software/ng2-charts/compare/v1.4.4...v1.5.0) (2017-01-17)
+
+
+### Bug Fixes
+
+* **charts:** Make charts dynamic and avoid re-rendering full chart on data change ([905183b](https://github.com/valor-software/ng2-charts/commit/905183b))
+
+
+### Features
+
+* **package:** relax dependencies ([#543](https://github.com/valor-software/ng2-charts/issues/543)) ([51b581d](https://github.com/valor-software/ng2-charts/commit/51b581d))
+* **package:** upgrade to ng v2.3+ ([#574](https://github.com/valor-software/ng2-charts/issues/574)) ([ce5011c](https://github.com/valor-software/ng2-charts/commit/ce5011c))
+
+
+
 <a name="1.4.4"></a>
 ## [1.4.4](https://github.com/valor-software/ng2-charts/compare/v1.3.0...v1.4.4) (2016-12-13)
 

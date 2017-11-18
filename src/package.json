@@ -1,6 +1,5 @@
 {
   "name": "ng2-charts",
-  "version": "1.4.4",
   "dependencies": {
     "chart.js": "*"
   },
